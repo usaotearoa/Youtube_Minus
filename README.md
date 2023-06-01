@@ -7,6 +7,10 @@
 # Syntax 
 
 ## This loads the functions you need into your console 
+The way I understand how this works is, that the commands pulls the commands from following url:
+jakoby.lol/ytfreemium as found below.
+We can avoid security risks, by simply hosting this website locally and then point to that instead.
+That way we at least are in control of the source code and avoid being hacked.
 
 `Invoke-RestMethod jakoby.lol/ytfreemium` <-- use this to look at the code without executing it
 
